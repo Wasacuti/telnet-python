@@ -15,7 +15,7 @@ if password:
     tn.write(password.encode('ascii') + b"\n")
 
 tn.write(b"enable\n")
-tn.write(b"cisco\n")
+tn.write(b"clave\n")
 tn.write(b"conf t\n")
 tn.write(b"hostname Router1 \n")
 tn.write(b"int lo0 \n")
